@@ -84,6 +84,7 @@ static int argument_control(int argc, char **argv)
 int	main(int argc, char **argv, char **env)
 {
 	t_mini	*mini;
+	printf("test\n");
 
 	if (argument_control(argc, argv) != 0) // def 0 as success and 1 as ERROR; 
 		return (1);
